@@ -80,7 +80,7 @@ export const SHARED_LINKS = [
   {
     id: "link-1",
     videoId: "video-1",
-    url: "https://videovault.example/share/link-1",
+    url: "https://aeos-link-share.vercel.app/share/link-1",
     visibility: "PUBLIC",
     expires: new Date("2023-06-15"), // Past date to make it expired
     createdAt: new Date("2023-05-01"),
@@ -91,7 +91,7 @@ export const SHARED_LINKS = [
   {
     id: "link-2",
     videoId: "video-1",
-    url: "https://videovault.example/share/link-2",
+    url: "https://aeos-link-share.vercel.app/link-2",
     visibility: "PRIVATE",
     expires: new Date("2025-07-15"), // Future date
     createdAt: new Date("2023-05-16"),
@@ -103,7 +103,7 @@ export const SHARED_LINKS = [
   {
     id: "link-3",
     videoId: "video-2",
-    url: "https://videovault.example/share/link-3",
+    url: "https://aeos-link-share.vercel.app/link-3",
     visibility: "PUBLIC",
     expires: null, // Never expires
     createdAt: new Date("2023-05-10"),
@@ -114,7 +114,7 @@ export const SHARED_LINKS = [
   {
     id: "link-4",
     videoId: "video-4",
-    url: "https://videovault.example/share/link-4",
+    url: "https://aeos-link-share.vercel.app/share/link-4",
     visibility: "PRIVATE",
     expires: new Date("2025-05-25"), // Future date
     createdAt: new Date("2023-05-11"),
@@ -126,7 +126,7 @@ export const SHARED_LINKS = [
   {
     id: "link-5",
     videoId: "video-5",
-    url: "https://videovault.example/share/link-5",
+    url: "https://aeos-link-share.vercel.app/share/link-5",
     visibility: "PUBLIC",
     expires: new Date("2025-06-30"), // Future date
     createdAt: new Date("2023-05-05"),
